@@ -101,6 +101,10 @@ h2 {
     text-align: center; /* Center all headers */
 }
 
+h3 {
+    text-align: center;
+}
+
 h2:hover {
     transform: scale(1.05); /* Slightly increase the size on hover */
 }
@@ -249,6 +253,23 @@ h2:hover {
     margin-top: 50px;
 }
 
+.portfolio-section {
+    margin-top: 50px;
+}
+
+.guestauthor-section {
+    margin-top: 50px;
+}
+
+.groupsolutions-section a{
+    color: #11101b;
+    text-decoration: none;
+}
+
+.groupsolutions-section a:hover{
+    text-decoration: underline;
+}
+
 .quiz-section {
     background: #fff;
     padding: 20px;
@@ -292,6 +313,15 @@ footer {
     text-align: center; /* Center the footer content */
     padding: 10px 0;
     margin-top: 20px;
+}
+
+footer a {
+    color: #fff; /* Change link color to white */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -348,7 +378,7 @@ footer {
     }
 
     .nav-bar.active {
-        height: 300px;
+        height: 400px;
     }
     
     .nav-bar ul {
